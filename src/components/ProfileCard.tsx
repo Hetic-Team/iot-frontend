@@ -3,7 +3,7 @@ import React from "react";
 const { Meta } = Card;
 
 const ProfileCard: React.FC = () => (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 'auto' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 'auto', paddingTop: '25px', paddingBottom: '25px' }}>
         <Card style={{ width: 450 , borderRadius: 30}}>
             <div style={{ position: 'relative', height: '100%' }}>
                 <img

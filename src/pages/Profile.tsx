@@ -6,7 +6,7 @@ import GeneralInformations from '../components/GeneralInformations';
 export const Profile = () => {
     return (
         <>
-            <div className='mb-20'>
+            <div className=''>
             <LabelPage label={'Profile'} />
             <ProfileCard />
             </div>
